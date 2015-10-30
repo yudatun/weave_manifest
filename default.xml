@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="weave"
+           fetch=".."
+           review="https://weave-review.googlesource.com/"
+  />
+  <default revision="master"
+           remote="weave"
+  />
+  <project path="libweave" name="weave/libweave" />
+  <project path="libuweave" name="weave/libuweave" />
+</manifest>
