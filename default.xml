@@ -9,4 +9,5 @@
   />
   <project path="libweave" name="weave/libweave" />
   <project path="libuweave" name="weave/libuweave" />
+  <project path="cocoapods" name="weave/cocoapods" />
 </manifest>
