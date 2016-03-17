@@ -4,6 +4,9 @@
            fetch=".."
            review="https://weave-review.googlesource.com/"
   />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/"
+  />
   <default revision="master"
            remote="weave"
   />
@@ -12,4 +15,9 @@
   <project path="cocoapods" name="weave/cocoapods" />
   <project path="tests" name="weave/tests" />
   <project path="manifest" name="weave/manifest" />
+
+  <project path="libweave/third_party/googletest"
+           name="external/github.com/google/googletest"
+           revision="82b11b8cfcca464c2ac74b623d04e74452e74f32"
+           remote="chromium" />
 </manifest>
