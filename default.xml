@@ -20,4 +20,8 @@
            name="external/github.com/google/googletest"
            revision="82b11b8cfcca464c2ac74b623d04e74452e74f32"
            remote="chromium" />
+  <project path="libweave/third_party/libevhtp"
+           name="external/github.com/ellzey/libevhtp/"
+           revision="refs/tags/1.2.11n"
+           remote="chromium" />
 </manifest>
