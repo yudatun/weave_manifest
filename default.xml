@@ -16,6 +16,15 @@
   <project path="tests" name="weave/tests" />
   <project path="manifest" name="weave/manifest" />
 
+  <!-- The revision here is simply the latest master that's been tested.
+       Feel free to update it whenever a newer version works.  -->
+  <project path="chromite"
+           name="chromiumos/chromite"
+           revision="9586c5d20cd299c187e4bf26cd23480131d60bd3"
+           remote="chromium"
+           sync-c="true" />
+  <project path="chromite/config" name="weave/buildbot_config" />
+
   <project path="libweave/third_party/googletest"
            name="external/github.com/google/googletest"
            revision="82b11b8cfcca464c2ac74b623d04e74452e74f32"
