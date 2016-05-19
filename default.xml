@@ -4,6 +4,10 @@
            fetch="https://weave.googlesource.com/"
            review="https://weave-review.googlesource.com/"
   />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+  />
   <remote  name="chromium"
            fetch="https://chromium.googlesource.com/"
   />
@@ -24,6 +28,9 @@
            remote="chromium"
            sync-c="true" />
   <project path="chromite/config" name="weave/buildbot_config" />
+
+  <project path="repohooks" name="platform/tools/repohooks" remote="aosp" />
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <project path="libweave/third_party/googletest"
            name="external/github.com/google/googletest"
