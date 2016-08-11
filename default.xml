@@ -24,7 +24,7 @@
        Feel free to update it whenever a newer version works.  -->
   <project path="chromite"
            name="chromiumos/chromite"
-           revision="9586c5d20cd299c187e4bf26cd23480131d60bd3"
+           revision="65ab030675bfbaa5991d41e7eff44462e2711a33"
            remote="chromium"
            sync-c="true" />
   <project path="chromite/config" name="weave/buildbot_config" />
